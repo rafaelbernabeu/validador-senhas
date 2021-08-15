@@ -18,7 +18,7 @@ public class ValidaCaracteresEspeciais extends AbstractValidadorSenha {
 
     @Override
     public boolean isValido(String senha) {
-        return validaSenhaConfig.getCaracteresEspeciais().stream().anyMatch(s -> senha.contains(s));
+        return validaSenhaConfig.getCaracteresEspeciais().stream().anyMatch(senha::contains);
     }
 
 }
