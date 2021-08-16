@@ -24,6 +24,12 @@ Output: Um boolean indicando se a senha é válida.
 ./mvn compile quarkus:dev
 ```
 
+## Para executar os testes:
+
+```shell script
+./mvn test
+```
+
 ## Uso da API:
 
 ```
@@ -37,7 +43,8 @@ AbCdE1@34
 
 Projeto feito somente para estudos.
 Caso queira utilizar em algum projeto em produçao, ative o protocolo HTTPS.
-Guia: https://quarkus.io/guides/http-reference#ssl
+Guias: https://github.com/rafaelbernabeu/cotador
+https://quarkus.io/guides/http-reference#ssl
 
 ## Notas de implementaçao
 
