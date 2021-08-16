@@ -1,6 +1,6 @@
 # Projeto validador-senhas
 
-Este projeto utiliza o framework Quarkus (A Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.).
+Este projeto utiliza o framework Quarkus (A Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards). \
 Website: https://quarkus.io/ .
 
 ## Funcionalidade
@@ -15,7 +15,7 @@ Ao menos 1 caractere especial
 Considere como especial os seguintes caracteres: !@#$%^&*()-+
 Não possuir caracteres repetidos dentro do conjunto
 
-Input: Uma senha (string).
+Input: Uma senha (string). \
 Output: Um boolean indicando se a senha é válida.
 
 ## Para executar a aplicação:
@@ -45,14 +45,14 @@ AbCdE1@34
 
 ## Notas de segurança
 
-Projeto feito somente para estudos.
+Projeto feito somente para estudos. \
 Caso queira utilizar em algum projeto em produçao, ative o protocolo HTTPS. \
 Guias: https://github.com/rafaelbernabeu/cotador \
 https://quarkus.io/guides/http-reference#ssl
 
 ## Notas de implementação
 
-E possivel alterar o comportamento das seguintes validaçoes:
+É possivel alterar o comportamento das seguintes validaçoes:
 - Quantidade minima de caracteres
 - Lista de caracteres especiais
 
@@ -75,7 +75,7 @@ senha.validaSemEspacos=true
 ```
 Guia:https://quarkus.io/guides/config-reference
 
-Para criar novas validaçoes, extenda a classe AbstractValidadorSenha. O sistema automaticamente ira detectar a nova instancia e inclui-la na cadeia de validacao.
+Para criar novas validaçoes, extenda a classe AbstractValidadorSenha. O sistema automaticamente ira detectar a nova instancia e inclui-la na cadeia de validacao. \
 Para a validacao ser opcional, adicione uma propriedade em ValidaSenhaConfig e application.properties.
 
 ## Tomadas de decisões
