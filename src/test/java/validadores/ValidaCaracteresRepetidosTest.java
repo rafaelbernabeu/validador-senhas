@@ -1,15 +1,11 @@
 package validadores;
 
-import config.ValidaSenhaConfig;
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
-import java.util.stream.Stream;
 
-import static java.lang.String.valueOf;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

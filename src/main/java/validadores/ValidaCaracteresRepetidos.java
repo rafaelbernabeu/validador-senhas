@@ -4,8 +4,6 @@ import config.ValidaSenhaConfig;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import static java.lang.String.valueOf;
 

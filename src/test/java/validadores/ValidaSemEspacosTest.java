@@ -4,7 +4,6 @@ import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;

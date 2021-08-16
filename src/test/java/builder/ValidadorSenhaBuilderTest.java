@@ -1,11 +1,9 @@
 package builder;
 
 import io.quarkus.test.junit.QuarkusTest;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import validadores.IValidadorSenha;
 
-import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.inject.Instance;
 import javax.inject.Inject;
 
