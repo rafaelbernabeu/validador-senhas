@@ -18,7 +18,7 @@ Não possuir caracteres repetidos dentro do conjunto
 Input: Uma senha (string).
 Output: Um boolean indicando se a senha é válida.
 
-## Para executar a aplicaçao:
+## Para executar a aplicação:
 
 ```shell script
 ./mvn compile quarkus:dev
@@ -46,11 +46,11 @@ AbCdE1@34
 ## Notas de segurança
 
 Projeto feito somente para estudos.
-Caso queira utilizar em algum projeto em produçao, ative o protocolo HTTPS.
-Guias: https://github.com/rafaelbernabeu/cotador
+Caso queira utilizar em algum projeto em produçao, ative o protocolo HTTPS. \
+Guias: https://github.com/rafaelbernabeu/cotador \
 https://quarkus.io/guides/http-reference#ssl
 
-## Notas de implementaçao
+## Notas de implementação
 
 E possivel alterar o comportamento das seguintes validaçoes:
 - Quantidade minima de caracteres
@@ -78,12 +78,12 @@ Guia:https://quarkus.io/guides/config-reference
 Para criar novas validaçoes, extenda a classe AbstractValidadorSenha. O sistema automaticamente ira detectar a nova instancia e inclui-la na cadeia de validacao.
 Para a validacao ser opcional, adicione uma propriedade em ValidaSenhaConfig e application.properties.
 
-## Tomadas de decisao
+## Tomadas de decisões
 - Nao foi especificado se a validaçao "Não possuir caracteres repetidos dentro do conjunto" era case-sensitive. Decidi que sim.
 - Nao foi solicitado retorno de mensagem de erro informando qual validacao falhou, caso necessario, alterar as implementacoes do metodo "boolean isValido(String senha)".
 
 
-## Ideias de novas funcionalidades
+## Idéias de novas funcionalidades
 - Validacao adicional -> receber uma regex via arquivo de configuracao.
 - Validacao de tamanho maximo.
 - Range de caracteres validos.
