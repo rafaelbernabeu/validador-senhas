@@ -1,4 +1,4 @@
-# Projeto validador-senhas Project
+# Projeto validador-senhas
 
 Este projeto utiliza o framework Quarkus (A Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.).
 Website: https://quarkus.io/ .
