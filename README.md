@@ -23,6 +23,10 @@ Output: Um boolean indicando se a senha é válida.
 ```shell script
 ./mvn compile quarkus:dev
 ```
+ou
+```shell script
+docker run --rm -p 8080:8080 rbbernabeu/validador-senhas
+```
 
 ## Para executar os testes:
 
