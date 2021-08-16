@@ -1,19 +1,20 @@
-# Projeto validador-senhas
+# Desafio validador-senhas
 
-Este projeto utiliza o framework Quarkus (A Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards). \
-Website: https://quarkus.io/ .
+Este projeto é uma implementação do [desafio](https://github.com/itidigital/backend-challenge) do [iti](https://iti.itau/).
+
+Foi utilizado o framework [Quarkus](https://quarkus.io/) (A Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards). 
 
 ## Funcionalidade
 
-Verifica se uma senha sendo válida a partir das seguintes condiçoes:
+Verifica se uma senha é válida a partir das seguintes condições:
 
-Nove ou mais caracteres
-Ao menos 1 dígito
-Ao menos 1 letra minúscula
-Ao menos 1 letra maiúscula
-Ao menos 1 caractere especial
-Considere como especial os seguintes caracteres: !@#$%^&*()-+
-Não possuir caracteres repetidos dentro do conjunto
+- Nove ou mais caracteres
+- Ao menos 1 dígito
+- Ao menos 1 letra minúscula
+- Ao menos 1 letra maiúscula
+- Ao menos 1 caractere especial
+- Considere como especial os seguintes caracteres: !@#$%^&*()-+
+- Não possuir caracteres repetidos dentro do conjunto
 
 Input: Uma senha (string). \
 Output: Um boolean indicando se a senha é válida.
